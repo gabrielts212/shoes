@@ -10,7 +10,7 @@ function Header() {
   <Flex inline="block">
 
 <Image src={Logo} alt="" width="5px" h="5px" />
-<ul>
+{/* <ul>
       <li>
         <a href="/home">TODOS OS PRODUTOS</a>
       </li>
@@ -20,7 +20,7 @@ function Header() {
       <li>
         <a href="/blog/hello-world">OUTLET</a>
       </li>
-    </ul>
+    </ul> */}
   </Flex>
 </Flex>
 
