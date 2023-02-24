@@ -4,7 +4,7 @@ const BodyFoto = () => {
   return (
     <div>
 <Flex>
-  teste
+  teste outro
 </Flex>
 
     </div>
