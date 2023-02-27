@@ -3,8 +3,8 @@ import { Flex,Box} from '@chakra-ui/react'
 const BodyTenis = () => {
   return (
     <div>
-                <Flex>
-  yawdawdwad
+                <Flex bg="black"h="5rem">
+  yawdawdwadaaaaa
 </Flex>
     </div>
   )
