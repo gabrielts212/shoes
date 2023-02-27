@@ -6,7 +6,7 @@ function Header() {
   return (
     <div>
 
-<Flex w="100%" h="122px" bg="blue">
+<Flex w="100%" h="122px" bg="white">
   <Flex inline="block">
 
 <Image src={Logo} alt="" width="5px" h="5px" />

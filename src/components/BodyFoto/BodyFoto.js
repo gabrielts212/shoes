@@ -4,13 +4,13 @@ const BodyFoto = () => {
   return (
     <div>
 
-<Flex  justify="center" color="black" bg="#C2185B" pt="5rem">
+<Flex  justify="center" color="black" bg="white" pt="5rem">
 
 
 <Heading>encontre seu estilo</Heading>
 </Flex>
 
-<Flex  bg="aqua" h="800.94px" justify="center" gap="20"  align="center">
+<Flex  bg="white" h="800.94px" justify="center" gap="20"  align="center">
   <Flex  h="600px" w=" 400px" bg="green">
 a
   </Flex>
