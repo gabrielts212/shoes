@@ -12,7 +12,7 @@ const BodyTenis = () => {
 SANDÁLIA PALMILHA 
 MATELASSÊ TIRAS ROLOTÊ
 </Heading>
-<Button  w="403px" h="99px" bg="#C2185B" size="50px">ver detalh</Button>
+<Button  w="403px" h="99px" bg="#C2185B" size="50px">ver detalhes</Button>
 </Flex>
 
 <Flex  justify="center" gap="20" align="center"   height="1000px" >
