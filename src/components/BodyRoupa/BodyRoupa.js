@@ -1,5 +1,8 @@
 import React from 'react'
 import { Flex,Box,h1,Heading,Button} from '@chakra-ui/react'
+import Image from "next/image";
+import Logo from "../../assets/sapatos.png";
+
 function BodyRoupa() {
   return (
     <div>
@@ -13,17 +16,17 @@ function BodyRoupa() {
 
 
  
-  <Flex  h="388px" w=" 260px" bg="green">
-a
+  <Flex  h="388px" w=" 260px" >
+<Image src={Logo} alt="" h="757.94px"   w="600px" />
   </Flex>
-  <Flex  h="388px" w=" 260px" bg="green">
-a
+  <Flex  h="388px" w=" 260px" >
+<Image src={Logo} alt="" h="757.94px"   w="600px" />
   </Flex>
-  <Flex  h="388px" w=" 260px" bg="green">
-a
+  <Flex  h="388px" w=" 260px" >
+<Image src={Logo} alt="" h="757.94px"   w="600px" />
   </Flex>
-  <Flex  h="388px" w=" 260px" bg="green">
-a
+  <Flex  h="388px" w=" 260px" >
+<Image src={Logo} alt="" h="757.94px"   w="600px" />
   </Flex>
  
 </Flex>

@@ -10,6 +10,9 @@ function Header() {
   <Flex inline="block">
 
 <Image src={Logo} alt="" width="5px" h="5px" />
+<Flex>
+
+</Flex>
 {/* <ul>
       <li>
         <a href="/home">TODOS OS PRODUTOS</a>
