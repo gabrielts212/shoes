@@ -71,7 +71,7 @@ perguntas frequentes
 politica de privacidade
 rastreamento de pedidos
 trabalhe conosco
-contato</ListItem>
+contatoo</ListItem>
       
         </List>
       </Flex>
