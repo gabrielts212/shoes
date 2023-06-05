@@ -28,7 +28,7 @@ d
 
         <List spacing={2} >
          
-          <ListItem>
+          <ListItem w="60%">
           <Link href="/">
           
 <Image src={Logo} alt="" width="5px" h="5px" />
@@ -67,8 +67,8 @@ contato</ListItem>
    
       <Flex size="20px">
         <List spacing={2} >
-          <Heading>institucional</Heading>
-          <ListItem>
+          <Heading >institucional</Heading>
+          <ListItem w="60%">
 sobre nós
 perguntas frequentes
 politica de privacidade

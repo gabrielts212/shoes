@@ -10,27 +10,32 @@ const BodyTenis = () => {
 
 
 
-<Flex  bg="white"  pl="5rem"  justify="center" pt="50px" gap="20" pb="10">
+<Flex  bg="white"   justifyContent="center"  pt="50px"  pb="10" >
   
-  <SimpleGrid   columns={[1, 1, 2]} spacing='0px' pl="20px"   >
-  
-{/* <Flex  h="500" w=" 70%" pb="5"><Button  w="403px" h="99px" bg="#C2185B" size="50px"pt="10">ver detalhes</Button></Flex> */}
+<SimpleGrid   columns={[1, 1, 2]}   pl="30" >
+
    
-    <Box h="70%" w=" 70%" pb="5"><Heading>
+<Box w="60%"pb="50" >
+<Heading>
 SANDÁLIA PALMILHA 
 MATELASSÊ TIRAS ROLOTÊ
-</Heading><Button  w="20%" h="10%" bg="#C2185B" size="50px">ver detalhes</Button><Image src={Z} alt="" h="30%"   /></Box>
+</Heading>
+<Box pb="10" pt="10" >
+<Button  w="80%" h="75px" bg="#C2185B" size="50px" fontSize="20px" color="white">Ver Detalhes</Button>
 
+</Box>
 
-    <Flex  h="757.94px"   w="95%"><Image src={Womenwhite} alt="" h="757.94px"   /></Flex>
+<Image w="90%" h="650px" src={Z} alt=""  />
+</Box>
+
+<Box w="70%" >
+
+<Image  h="939px"   w="70%" src={Womenwhite} alt=""  />
+</Box>
+
    
   </SimpleGrid>
   </Flex>
-
- 
-
-
-
 
 
 
