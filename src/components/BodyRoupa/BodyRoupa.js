@@ -6,7 +6,14 @@ import Logoo from "../../assets/sapato2.png";
 import Logooo from "../../assets/sapato3.png";
 import Logoooo from "../../assets/sapato4.png";
 
-function BodyRoupa() {
+
+
+const headerTitles = [
+  {
+    title: "SCARPIN SALTO FINO BÁSICO R$140,00",
+  },
+];
+function BodyRoupa( ) {
   return (
     <div>
 
@@ -25,33 +32,54 @@ function BodyRoupa() {
 <Box  h="388px" w=" 260px"bg="white" >
  <Box bg="white" >
 <Image src={Logo} alt="" h="757.94px"   w="600px" />
-<Text fontSize='lg'>SCARPIN SALTO FINO BÁSICO</Text>
-<Text fontSize='lg'>R$140,00 </Text>
+
+
+<Flex fontFamily="Bai Jamjuree" > {headerTitles.map((title, index) => {
+                  return (
+                    <Flex {...title} key={index}>
+                      <Text fontFamily="Bai Jamjuree" fontSize="20px">{title.title}</Text>
+                    </Flex>
+                  );
+                })}</Flex>
+{/* <Text fontSize='lg'>R$140,00 </Text> */}
 
  </Box>
   </Box>
   <Box  h="388px" w=" 260px"bg="white" >
  <Box bg="white" >
 <Image src={Logoo} alt="" h="757.94px"   w="600px" />
-<Text fontSize='lg'>SCARPIN SALTO FINO BÁSICO</Text>
-<Text fontSize='lg'>R$140,00 </Text>
+<Flex fontFamily="Bai Jamjuree" > {headerTitles.map((title, index) => {
+                  return (
+                    <SimpleGrid {...title} key={index}>
+                      <Text fontFamily="Bai Jamjuree" fontSize="20px">{title.title}</Text>
+                    </SimpleGrid>
+                  );
+                })}</Flex>
 
  </Box>
   </Box>
   <Box  h="388px" w=" 260px"bg="white" >
  <Box bg="white" >
 <Image src={Logooo} alt="" h="757.94px"   w="600px" />
-<Text fontSize='lg'>SCARPIN SALTO FINO BÁSICO</Text>
-<Text fontSize='lg'>R$140,00 </Text>
-
+<Flex fontFamily="Bai Jamjuree" > {headerTitles.map((title, index) => {
+                  return (
+                    <Flex {...title} key={index}>
+                      <Text fontFamily="Bai Jamjuree" fontSize="20px">{title.title}</Text>
+                    </Flex>
+                  );
+                })}</Flex>
  </Box>
   </Box>
   <Box  h="388px" w=" 260px"bg="white" >
  <Box bg="white" >
 <Image src={Logoooo} alt="" h="757.94px"   w="600px" />
-<Text fontSize='lg'>SCARPIN SALTO FINO BÁSICO</Text>
-<Text fontSize='lg'>R$140,00 </Text>
-
+<Flex  fontFamily="Bai Jamjuree" > {headerTitles.map((title, index) => {
+                  return (
+                    <Flex {...title} key={index}>
+                      <Text fontFamily="Bai Jamjuree" fontSize="20px">{title.title}</Text>
+                    </Flex>
+                  );
+                })}</Flex>
  </Box>
   </Box>
 </SimpleGrid>

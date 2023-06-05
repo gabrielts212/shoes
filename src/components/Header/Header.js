@@ -1,31 +1,48 @@
 import React from 'react'
-import { Flex} from '@chakra-ui/react'
+import { Flex, UnorderedList,ListItem,Box,Heading,Text,SimpleGrid, Link } from '@chakra-ui/react'
 import Image from "next/image";
 import Logo from "../../assets/logo2.svg";
+
+
+const headerTitles = [
+  {
+    title: "Todos os Produtos",
+  },
+  {
+    title: "Coleção",
+  },
+  {
+    title: "Outlet",
+  }, 
+];
 function Header() {
   return (
     <div>
 
-<Flex w="100%" h="122px" bg="white">
-  <Flex inline="block">
+<Flex w="100%" h="122px" bg="white"      justifyContent="space-around" gap="10">
 
+<Link href="/">
 <Image src={Logo} alt="" width="5px" h="5px" />
-<Flex>
+        </Link>
 
-</Flex>
-{/* <ul>
-      <li>
-        <a href="/home">TODOS OS PRODUTOS</a>
-      </li>
-      <li>
-        <a href="/about">COLEÇÕES</a>
-      </li>
-      <li>
-        <a href="/blog/hello-world">OUTLET</a>
-      </li>
-    </ul> */}
+<Flex  align="center" >
+
+<Flex >
+  <Flex>
+  {headerTitles.map((title, index) => {
+                  return (
+                    <SimpleGrid  display={["none", "none", "flex", "flex", "flex"]}{...title} key={index}spacing={5} pl="2rem">
+                      <Link fontFamily="Bai Jamjuree" fontSize="24px" Flex _hover={{ bg: "#C2185B" }}>{title.title}</Link>
+                    </SimpleGrid>
+                  );
+                })}
   </Flex>
 </Flex>
+</Flex>
+</Flex>
+
+
+
 
     </div>
   )

@@ -9,7 +9,7 @@ const BodyFoto = () => {
 
 <Flex  justify="center" color="black" bg="white" pt="5rem" pb="5rem">
 
-<Heading>Encontre seu estilo</Heading>
+<Heading fontSize="50px" >Encontre seu estilo</Heading>
 </Flex>
 <Flex  bg="white"  justify="center" gap="20"  align="center" pb="5rem">
   

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex,Box,ListItem,List ,Heading,SimpleGrid } from '@chakra-ui/react'
+import { Flex,Box,ListItem,List ,Heading,SimpleGrid,Link } from '@chakra-ui/react'
 import Image from "next/image";
 import Logo from "../../assets/logofooter.svg";
 const footer = () => {
@@ -29,7 +29,10 @@ d
         <List spacing={2} >
          
           <ListItem>
+          <Link href="/">
+          
 <Image src={Logo} alt="" width="5px" h="5px" />
+          </Link>
 sobre nós
 perguntas frequentes
 politica de privacidade
