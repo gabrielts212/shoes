@@ -1,8 +1,8 @@
 import React from 'react'
 import { Flex,SimpleGrid,Heading,Button, Box  } from '@chakra-ui/react'
 import Image from "next/image";
-// import Womenwhite from "../../assets/womenwhite.png";
-// import Z from "../../assets/Z.png";
+import Womenwhite from "../../assets/womenwhite.png";
+import sapatos from "../../assets/sapatos.png";
 const BodyTenis = () => {
   return (
     <div>
@@ -25,12 +25,12 @@ MATELASSÊ TIRAS ROLOTÊ
 
 </Box>
 
-{/* <Image w="90%" h="650px" src={Z} alt=""  /> */}
+<Image w="90%" h="650px" src={sapatos} alt=""  />
 </Box>
 
 <Box w="70%" >
 
-{/* <Image  h="939px"   w="70%" src={Womenwhite} alt=""  /> */}
+<Image  h="939px"   w="70%" src={Womenwhite} alt=""  />
 </Box>
 
    

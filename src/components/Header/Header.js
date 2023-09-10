@@ -32,7 +32,7 @@ function Header() {
   {headerTitles.map((title, index) => {
                   return (
                     <SimpleGrid  display={["none", "none", "flex", "flex", "flex"]}{...title} key={index}spacing={5} pl="2rem">
-                      <Link fontFamily="Bai Jamjuree" fontSize="24px" Flex _hover={{ bg: "#C2185B" }}>{title.title}</Link>
+                      <Link fontFamily="poppins" fontSize="24px" Flex _hover={{ bg: "#C2185B" }}>{title.title}</Link>
                     </SimpleGrid>
                   );
                 })}

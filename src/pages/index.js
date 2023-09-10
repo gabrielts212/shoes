@@ -4,7 +4,7 @@ import Header from "../components/Header/Header";
 import Banner from "../components/Banner/Banner";
 import BodyFoto from "../components/BodyFoto/BodyFoto";
 import BodyRoupa from "../components/BodyRoupa/BodyRoupa";
-// import BodyTenis from "../components/BodyTenis/BodyTenis";
+import BodyTenis from "../components/BodyTenis/BodyTenis";
 import Footer from "../components/footer/footer";
 const Index = () => {
   return (
@@ -13,7 +13,7 @@ const Index = () => {
    <Banner/>
    <BodyFoto/>
    <BodyRoupa/>
-   {/* <BodyTenis/> */}
+   <BodyTenis/>
    <Footer/>
     </div>
   )
