@@ -20,10 +20,10 @@ const BodyTenis = () => {
 SANDÁLIA PALMILHA 
 MATELASSÊ TIRAS ROLOTÊ
 </Heading>
-<Box pb="10" pt="10" >
-<Button  w="80%" h="75px" bg="#C2185B" size="50px" fontSize="20px" color="white">Ver Detalhes</Button>
 
-</Box>
+<Button  w="80%" h="75px" bg="#C2185B" size="50px" fontSize="20px" color="white" pb="10" pt="10">Ver Detalhes</Button>
+
+
 
 <Image w="90%" h="650px" src={sapatos} alt=""  />
 </Box>
