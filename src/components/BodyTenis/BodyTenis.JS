@@ -30,8 +30,8 @@ MATELASSÊ TIRAS ROLOTÊ
 
 <Box w="70%" >
 
-</Box>
 <Image as="Flex" h="939px"   w="70%" src={Womenwhite} alt=""  />
+</Box>
 
    
   </SimpleGrid>
