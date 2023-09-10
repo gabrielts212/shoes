@@ -25,7 +25,7 @@ MATELASSÊ TIRAS ROLOTÊ
 
 
 
-<Image w="90%" h="650px" src={sapatos} alt=""  />
+<Image as="Flex" w="90%" h="650px" src={sapatos} alt=""  />
 </Box>
 
 <Box w="70%" >
