@@ -15,7 +15,7 @@ const BodyTenis = () => {
 <SimpleGrid   columns={[1, 1, 2]}   pl="30" >
 
    
-<Box w="60%"pb="50" >
+<Box as="Flex" w="60%"pb="50" >
 <Heading>
 SANDÁLIA PALMILHA 
 MATELASSÊ TIRAS ROLOTÊ

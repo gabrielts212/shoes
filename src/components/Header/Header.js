@@ -21,9 +21,9 @@ function Header() {
 
 <Flex w="100%" h="122px" bg="white"      justifyContent="space-around" gap="10">
 
-<Link href="/">
+<Flex href="/">
 <Image src={Logo} alt="" width="5px" h="5px" />
-        </Link>
+        </Flex>
 
 <Flex  align="center" >
 
