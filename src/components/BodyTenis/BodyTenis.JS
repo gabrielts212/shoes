@@ -25,13 +25,13 @@ MATELASSÊ TIRAS ROLOTÊ
 
 
 
-<Image as="Flex" w="90%" h="650px" src={sapatos} alt=""  />
 </Box>
+<Image as="Flex" w="90%" h="650px" src={sapatos} alt=""  />
 
 <Box w="70%" >
 
-<Image  h="939px"   w="70%" src={Womenwhite} alt=""  />
 </Box>
+<Image as="Flex" h="939px"   w="70%" src={Womenwhite} alt=""  />
 
    
   </SimpleGrid>
